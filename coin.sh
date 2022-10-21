@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Flip=$(($RANDOM%10))%2))
+Flip=$(($RANDOM%2));
 if [ $Flip -eq 1 ]
       then
         echo "Heads"
